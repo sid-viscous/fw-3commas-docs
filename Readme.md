@@ -9,10 +9,35 @@ Use algorithmic trading at your own risk, consider paper trading first.
 * A [3Commas account](https://3commas.io/?c=tc1052076)
 * A [Tradingview account](https://www.tradingview.com/gopro/?share_your_love=sid-viscous) with at least the lowest paid subscription level
 * [FW strategy](https://github.com/SKnight79/fwstrategy)
+* API keys for your exchange
+  * [Kucoin](https://help.3commas.io/en/articles/3109059-kucoin-how-to-create-api-keys)
+  * [Binance](https://help.3commas.io/en/articles/3109051-binance-how-to-create-api-keys)
 
 *Yes I put my referral links in there, get over it*
 
+When setting up API keys, make sure IPs are unrestricted, and the key allows access for trades but not withdrawals.
+ 
+Copy your keys and never share them with anyone, the exchange will typically only show you the secret key once.
+
 ## 3 commas
+
+### Giving 3Commas API access to the exchange
+
+3Commas requires access to be able to trade through the API.
+
+You should already have an API key and secret key with trading permissions.
+
+1. To connect to the exchange go to `My exchanges`.
+
+![My exchanges](images/api_my_exchanges.png)
+
+2. Choose your exchange from the dropdown.
+
+![API exchanges](images/api_exchanges.png)
+
+3. Enter the API key and secret to this form.
+
+4. ![API settings](images/api_settings.png)
 
 ### Creating a DCA bot
 1. In 3commas, under the `Trading Bots` menu on the left go to the `DCA bot` dashboard.
@@ -188,5 +213,9 @@ It is recommended at the very least that `FW Status`, `FW Bands Trend`, and `FW 
 
 Get comfortable with the strategy, try different settings on back-testing, try it with paper trading first, and try it with very small orders to start with, to ensure your settings are optimal.
 
+### Recommended settings
 
+* 4h timeframe - this is to capture bigger swings, and also avoids maby of the scam wicks.
+* TP 3% to 10%, depending on the volatility of the coin and your risk appetite
+* SL 1% to 4%, depending on your timeframe
 
