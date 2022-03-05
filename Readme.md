@@ -160,6 +160,10 @@ Do this for the Long and Short positions, placing the X3L coin in the Long trade
 
 8. Click `Create` and alerts will start to be sent to the webhook address when they are made. Ensure the DCA bot is switched on to make trades from the strategy.
 
+**IMPORTANT:** Alerts are not updated to changes in the strategy or settings. It will always trigger based on the strategy from when the alert was created.
+
+If the strategy is updated, you must delete the old alerts and re-make them.
+
 ## Telegram integration
 
 It is useful to get logs of the DCA bot for events such as API key expiring, missing pairs, 
