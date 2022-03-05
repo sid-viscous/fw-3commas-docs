@@ -160,6 +160,22 @@ Do this for the Long and Short positions, placing the X3L coin in the Long trade
 
 8. Click `Create` and alerts will start to be sent to the webhook address when they are made. Ensure the DCA bot is switched on to make trades from the strategy.
 
+## Telegram integration
+
+It is useful to get logs of the DCA bot for events such as API key expiring, missing pairs, 
+
+1. First, make sure you are logged into Telegram on the browser or desktop version.
+
+2. To activate the Telegram bot, go to settings in 3Commas.
+
+![img.png](images/tele_settings.png)
+
+Scroll to the bottom of this page and click `Activate Telegram bot`.
+
+![img.png](images/tele_activate.png)
+
+Then follow the instructions to subscribe to the bot. 
+
 ## Indicators
 
 It is recommended at the very least that `FW Status`, `FW Bands Trend`, and `FW Support Resistance` are loaded alongside the strategy. These do not affect the strategy but help to visualise what conditions the strategy is considering and why.
