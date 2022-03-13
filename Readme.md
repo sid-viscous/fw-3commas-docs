@@ -215,7 +215,9 @@ Get comfortable with the strategy, try different settings on back-testing, try i
 
 ### Recommended settings
 
-* 4h timeframe - this is to capture bigger swings, and also avoids maby of the scam wicks.
+* 4h timeframe - this is to capture bigger swings, and also avoids many of the scam wicks.
 * TP 3% to 10%, depending on the volatility of the coin and your risk appetite
 * SL 1% to 4%, depending on your timeframe
+* SL timeout 1m to 15m, depending on timeframe
+* Order entry delay 5s
 
